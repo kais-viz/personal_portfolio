@@ -12,11 +12,21 @@ import Footer from './components/Footer.vue'
   <div class="bg-white dark:bg-gray-900">
     <div class="container max-w-5xl px-4 mx-auto text-gray-900 bg-white dark:bg-gray-900 dark:text-white">  
       <Nav />
-      <Hero />
-      <Experience />
-      <Education />
-      <Skills />
-      <Contact />
+      <div class="scroll-mt-16" id="about">
+        <Hero />
+      </div>
+      <div class="scroll-mt-16" id="experience">
+        <Experience />
+      </div>
+      <div class="scroll-mt-16" id="education">
+        <Education />
+      </div>
+      <div class="scroll-mt-16" id="skills">
+        <Skills />
+      </div>
+      <div class="scroll-mt-16" id="contact">
+        <Contact />
+      </div>
       <Footer />
     </div>
   </div>
