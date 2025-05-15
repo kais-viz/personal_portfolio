@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-white dark:bg-gray-900">
     <header class="absolute inset-x-0 top-0 z-50">
       <Dialog class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
         <div class="fixed inset-0 z-50" />
@@ -17,31 +17,31 @@
           <div class="flow-root mt-6">
             <div class="-my-6 divide-y divide-gray-500/10">
               <div class="py-6 space-y-2">
-                <a v-for="item in navigation" :key="item.name" :href="item.href" class="block px-3 py-2 -mx-3 font-semibold text-gray-900 rounded-lg text-base/7 hover:bg-gray-50">{{ item.name }}</a>
+                <a v-for="item in navigation" :key="item.name" :href="item.href" class="block px-3 py-2 -mx-3 font-semibold text-gray-900 rounded-lg dark:text-white text-base/7 hover:bg-gray-50 dark:hover:bg-gray-800">{{ item.name }}</a>
               </div>
               <div class="py-6">
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log in</a>
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-800">Log in</a>
               </div>
             </div>
           </div>
         </DialogPanel>
       </Dialog>
     </header>
-    <div class="relative overflow-hidden isolate bg-gradient-to-b from-indigo-100/20 pt-14">
+    <div class="relative overflow-hidden isolate pt-14">
       <div class="px-6 py-32 mx-auto max-w-7xl sm:py-40 lg:px-8">
         <div class="max-w-2xl mx-auto lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-8 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
-          <h1 class="max-w-2xl text-5xl font-semibold tracking-tight text-gray-900 text-balance sm:text-7xl lg:col-span-2 xl:col-auto">We’re changing the way people connect</h1>
+          <h1 class="max-w-2xl text-5xl font-semibold tracking-tight text-gray-900 dark:text-white text-balance sm:text-7xl lg:col-span-2 xl:col-auto">We’re changing the way people connect</h1>
           <div class="max-w-xl mt-6 lg:mt-0 xl:col-end-1 xl:row-start-1">
-            <p class="text-lg font-medium text-gray-500 text-pretty sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
+            <p class="text-lg font-medium text-gray-500 dark:text-gray-300 text-pretty sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
             <div class="flex items-center mt-10 gap-x-6">
               <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
-              <a href="#" class="font-semibold text-gray-900 text-sm/6">Learn more <span aria-hidden="true">→</span></a>
+              <a href="#" class="font-semibold text-gray-900 dark:text-white text-sm/6">Learn more <span aria-hidden="true">→</span></a>
             </div>
           </div>
           <img src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80" alt="" class="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36" />
         </div>
       </div>
-      <div class="absolute inset-x-0 bottom-0 h-24 -z-10 bg-gradient-to-t from-white sm:h-32" />
+      <div class="absolute inset-x-0 bottom-0 h-24 -z-10 bg-gradient-to-t from-white dark:from-gray-900 sm:h-32" />
     </div>
   </div>
 </template>

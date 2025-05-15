@@ -1,24 +1,24 @@
 <template>
   <section id="experience" class="py-10">
-    <h2 class="text-2xl font-bold mb-6">Experience</h2>
+    <h2 class="text-2xl font-bold mb-6 dark:text-white">Experience</h2>
     <div class="flow-root">
       <ul role="list" class="-mb-8">
         <li v-for="(job, jobIdx) in jobs" :key="job.id">
           <div class="relative pb-8">
-            <span v-if="jobIdx !== jobs.length - 1" class="absolute left-5 top-5 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true" />
+            <span v-if="jobIdx !== jobs.length - 1" class="absolute left-5 top-5 -ml-px h-full w-0.5 bg-gray-200 dark:bg-gray-700" aria-hidden="true" />
             <div class="relative flex items-start space-x-3">
               <div class="relative">
-                <img class="flex items-center justify-center bg-gray-100 rounded-full size-10 ring-8 ring-white" :src="job.companyLogo" alt="" />
+                <img class="flex items-center justify-center bg-gray-100 dark:bg-gray-800 rounded-full size-10 ring-8 ring-white dark:ring-gray-900" :src="job.companyLogo" alt="" />
               </div>
               <div class="flex-1 min-w-0">
                 <div>
                   <div class="text-sm">
-                    <span class="font-medium text-gray-900">{{ job.position }}</span> at 
-                    <span class="font-medium text-gray-900">{{ job.company }}</span>
+                    <span class="font-medium text-gray-900 dark:text-white">{{ job.position }}</span> at 
+                    <span class="font-medium text-gray-900 dark:text-white">{{ job.company }}</span>
                   </div>
-                  <p class="mt-0.5 text-sm text-gray-500">{{ job.location }} | {{ job.period }}</p>
+                  <p class="mt-0.5 text-sm text-gray-500 dark:text-gray-400">{{ job.location }} | {{ job.period }}</p>
                 </div>
-                <div class="mt-2 text-sm text-gray-700">
+                <div class="mt-2 text-sm text-gray-700 dark:text-gray-300">
                   <p>{{ job.description }}</p>
                 </div>
               </div>

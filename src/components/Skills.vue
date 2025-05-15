@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h3 class="text-base font-semibold text-gray-900">Technical Skills</h3>
-    <dl class="grid grid-cols-1 mt-5 overflow-hidden bg-white divide-y divide-gray-200 rounded-lg shadow md:grid-cols-4 md:divide-x md:divide-y-0">
+    <h3 class="text-base font-semibold text-gray-900 dark:text-white">Technical Skills</h3>
+    <dl class="grid grid-cols-1 mt-5 overflow-hidden bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700 rounded-lg shadow md:grid-cols-4 md:divide-x md:divide-y-0">
       <div v-for="skill in skills" :key="skill.name" class="px-4 py-5 sm:p-6">
-        <dt class="text-base font-normal text-gray-900">{{ skill.name }}</dt>
+        <dt class="text-base font-normal text-gray-900 dark:text-white">{{ skill.name }}</dt>
         <dd class="flex items-center justify-center mt-4">
           <img :src="skill.logo" :alt="skill.name" class="w-16 h-16" />
         </dd>
