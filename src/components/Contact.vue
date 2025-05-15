@@ -12,12 +12,6 @@
           </div>
         </div>
         <div class="sm:col-span-2">
-          <label for="company" class="block font-semibold text-gray-900 text-sm/6">Company</label>
-          <div class="mt-2.5">
-            <input type="text" name="company" id="company" autocomplete="organization" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600" />
-          </div>
-        </div>
-        <div class="sm:col-span-2">
           <label for="message" class="block font-semibold text-gray-900 text-sm/6">Message</label>
           <div class="mt-2.5">
             <textarea name="message" id="message" rows="4" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600" />
