@@ -66,11 +66,11 @@ import { Dialog, DialogPanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon, SunIcon, MoonIcon } from '@heroicons/vue/24/outline'                                                                           
                                                                                                                                                               
 const navigation = [                                                                                                                                          
-  { name: 'About', href: '#' },                                                                                                                             
-  { name: 'Experience', href: '#' },                                                                                                                            
-  { name: 'Education', href: '#' },                                                                                                                         
-  { name: 'Skills', href: '#' },   
-  { name: 'Contact', href: '#' },                                                                                                                           
+  { name: 'About', href: '#about' },                                                                                                                             
+  { name: 'Experience', href: '#experience' },   
+  { name: 'Skills', href: '#skills' },                                                                                                                          
+  { name: 'Education', href: '#education' },                                                                                                                         
+  { name: 'Contact', href: '#contact' },                                                                                                                           
 ]                                                                                                                                                             
                                                                                                                                                               
 const mobileMenuOpen = ref(false)                                                                                                                             
