@@ -36,7 +36,6 @@
                     <p class="text-lg font-medium text-gray-500 dark:text-gray-300 text-pretty sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
                     <div class="flex items-center mt-10 gap-x-6">
                     <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
-                    <a href="#" class="font-semibold text-gray-900 dark:text-white text-sm/6">Learn more <span aria-hidden="true">→</span></a>
                     </div>
                 </div>
                 <img src="/kais.jpg" alt="Kais Kawar" class="mt-10 aspect-[6/5] w-full max-w-xl rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2   
