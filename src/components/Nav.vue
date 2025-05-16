@@ -2,7 +2,7 @@
   <header class="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow-sm dark:shadow-gray-800/10">                                                                                                                  
     <nav class="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8" aria-label="Global">                                                         
       <div class="flex items-center">                                                                                                                
-        <div class="flex lg:gap-x-12">                                                                                                              
+        <div class="hidden lg:flex lg:gap-x-12">                                                                                                              
           <a v-for="item in navigation" :key="item.name" :href="item.href" class="font-semibold text-gray-900 text-sm/6 dark:text-white">{{ item.name }}</a>  
         </div>                                                                                                                                                
       </div>                                                                                                                                                  
