@@ -58,15 +58,15 @@ import { Dialog, DialogPanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon, SunIcon, MoonIcon } from '@heroicons/vue/24/outline'                                                                           
                                                                                                                                                               
 const navigation = [                                                                                                                                          
-  { name: 'About', href: '#about' },                                                                                                                             
+  { name: 'About', href: '#about' },    
+  { name: 'Skills', href: '#skills' },                                                                                                                         
   { name: 'Experience', href: '#experience' },   
-  { name: 'Skills', href: '#skills' },                                                                                                                          
   { name: 'Education', href: '#education' },                                                                                                                         
   { name: 'Contact', href: '#contact' },                                                                                                                           
 ]                                                                                                                                                             
                                                                                                                                                               
 const mobileMenuOpen = ref(false)                                                                                                                             
-const isDarkMode = ref(false)                                                                                                                                 
+const isDarkMode = ref(true)                                                                                                                                 
                                                                                                                                                               
 // Function to toggle dark mode                                                                                                                               
 const toggleDarkMode = () => {                                                                                                                                
@@ -83,10 +83,12 @@ const toggleDarkMode = () => {
 // Check for saved user preference on component mount                                                                                                         
 onMounted(() => {                                                                                                                                             
   const savedDarkMode = localStorage.getItem('darkMode')                                                                                                      
-  if (savedDarkMode === 'true' ||                                                                                                                             
-      (savedDarkMode === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {                                                                
+  if (savedDarkMode === null || savedDarkMode === 'true') {                                                                                                   
     isDarkMode.value = true                                                                                                                                   
     document.documentElement.classList.add('dark')                                                                                                            
+  } else {
+    isDarkMode.value = false
+    document.documentElement.classList.remove('dark')
   }                                                                                                                                                           
 })                                                                                                                                                            
 </script>
