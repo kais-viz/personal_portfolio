@@ -1,6 +1,7 @@
 <template>
-  <section id="experience" class="py-10">
-    <h2 class="mb-6 text-2xl font-bold dark:text-white">Experience</h2>
+  <section id="experience" class="py-16 bg-white dark:bg-gray-900 sm:py-20">
+    <div class="px-6 mx-auto max-w-7xl lg:px-8">
+      <h2 class="mb-6 text-2xl font-bold dark:text-white">Experience</h2>
     <div class="flow-root">
       <ul role="list" class="-mb-8">
         <li v-for="(job, jobIdx) in jobs" :key="job.id">
@@ -29,6 +30,7 @@
           </div>
         </li>
       </ul>
+      </div>
     </div>
   </section>
 </template>

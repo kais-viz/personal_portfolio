@@ -1,6 +1,6 @@
 <template>
   <section id="contact">
-    <div class="px-6 py-24 bg-white dark:bg-gray-900 isolate sm:py-32 lg:px-8">
+    <div class="px-6 py-16 bg-white dark:bg-gray-900 isolate sm:py-20 mx-auto max-w-7xl lg:px-8">
       <div class="max-w-2xl mx-auto text-center">
         <h2 class="text-4xl font-semibold tracking-tight text-gray-900 dark:text-white text-balance sm:text-5xl">Let's Connect</h2>
       </div>

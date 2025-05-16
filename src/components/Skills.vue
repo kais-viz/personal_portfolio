@@ -1,7 +1,8 @@
 <template>
-    <section id="skills">
-        <h3 class="mb-6 text-2xl font-bold dark:text-white">Technical Skills</h3>
-        <div class="flex flex-wrap gap-2">
+    <section id="skills" class="py-16 bg-white dark:bg-gray-900 sm:py-20">
+        <div class="px-6 mx-auto max-w-7xl lg:px-8">
+            <h3 class="mb-6 text-2xl font-bold dark:text-white">Tech Skills</h3>
+            <div class="flex flex-wrap gap-2">
             <span 
             v-for="(skill, index) in skills" 
             :key="index" 
@@ -10,6 +11,7 @@
             <span class="w-5 h-5" v-html="skill.icon"></span>
             {{ skill.name }}
             </span>
+            </div>
         </div>
     </section>
 </template>
