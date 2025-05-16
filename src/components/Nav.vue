@@ -1,5 +1,5 @@
 <template>                                                                                                                                                    
-  <header class="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow-sm dark:shadow-gray-800/10">                                                                                                                  
+  <header class="sticky top-0 z-50 bg-white shadow-sm dark:bg-gray-900 dark:shadow-gray-800/10">                                                                                                                  
     <nav class="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8" aria-label="Global">                                                         
       <div class="flex items-center">                                                                                                                
         <div class="hidden lg:flex lg:gap-x-12">                                                                                                              
@@ -24,8 +24,8 @@
     </nav>                                                                                                                                                    
     <Dialog class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">                                                                         
       <div class="fixed inset-0 z-10" />                                                                                                                      
-      <DialogPanel class="fixed inset-y-0 right-0 z-10 w-full px-6 py-6 overflow-y-auto bg-white dark:bg-gray-900 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 dark:sm:ring-gray-100/10">                                                                                                                                    
-        <div class="flex items-center justify-between">                                                                                                       
+      <DialogPanel class="fixed inset-y-0 right-0 z-10 w-full px-6 py-6 overflow-y-auto bg-white shadow-lg dark:bg-gray-900 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 dark:sm:ring-gray-100/10 dark:shadow-gray-800/50">                                                                                                                                    
+        <div class="flex items-center justify-end w-full">                                                                                                       
           <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700 dark:text-gray-200" @click="mobileMenuOpen = false">                             
             <span class="sr-only">Close menu</span>                                                                                                           
             <XMarkIcon class="size-6" aria-hidden="true" />                                                                                                   
