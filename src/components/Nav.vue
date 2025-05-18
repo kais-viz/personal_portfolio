@@ -34,7 +34,15 @@
         <div class="flow-root mt-6">                                                                                                                          
           <div class="-my-6 divide-y divide-gray-500/10 dark:divide-gray-500/30">                                                                             
             <div class="py-6 space-y-2">                                                                                                                      
-              <a v-for="item in navigation" :key="item.name" :href="item.href" class="block px-3 py-2 -mx-3 font-semibold text-gray-900 rounded-lg text-base/7 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-800">{{ item.name }}</a>                                                                                  
+              <a 
+                v-for="item in navigation" 
+                :key="item.name" 
+                :href="item.href" 
+                class="block px-3 py-2 -mx-3 font-semibold text-gray-900 rounded-lg text-base/7 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-800"
+                @click="mobileMenuOpen = false"
+              >
+                {{ item.name }}
+              </a>                                                                                  
             </div>
             <div class="py-6">                                                                                                                                
               <!-- Dark mode toggle in mobile menu -->                                                                                                        
