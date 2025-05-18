@@ -48,7 +48,7 @@
             <div class="w-full md:w-1/2">
               <h3 class="mb-4 text-2xl font-bold text-gray-800 dark:text-white">I like your curiousity, just like Simba!</h3>
               <p class="text-lg text-gray-600 dark:text-gray-300">
-                Meet my cat Simba. He's my coding companion who keeps me company during long programming sessions.
+                He's my coding companion who keeps me company during long programming sessions.
                 He's known for his curious nature and occasional keyboard contributions.
               </p>
             </div>
