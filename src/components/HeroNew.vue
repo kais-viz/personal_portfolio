@@ -6,9 +6,9 @@
         <div class="flex flex-col items-start gap-8 md:flex-row">
           <!-- Left side content -->
           <div class="w-full space-y-6 md:w-1/2">          
-            <h1 class="text-4xl font-bold text-gray-800 dark:text-white md:text-4xl -ml-0.5">Delivering High-Impact Software Solutions.</h1>
-            <p class="text-2xl text-gray-600 dark:text-gray-300">I'm <span @click="incrementClicks" class="transition-colors cursor-pointer ">Kais Kawar</span>, a Full Stack Software Engineer specializing in building robust, data-driven, and scalable cloud-based applications.</p>
-            <p class="text-lg text-gray-600 dark:text-gray-300">Leveraging Python, Node.js, Vue.js, and AWS, I deliver innovative solutions from reliable ETL pipelines to high-performance web applications, ensuring your data works for you and your systems handle growth effortlessly.</p>
+            <h1 class="text-4xl font-bold text-gray-800 dark:text-white md:text-4xl -ml-0.5">Delivering High-Impact Software Solutions</h1>
+            <p class="text-2xl text-gray-600 dark:text-gray-300">I'm <span @click="incrementClicks" class="transition-colors cursor-pointer ">Kais Kawar</span>, a Full Stack Software Developer specializing in building robust, data-driven, and scalable cloud-based applications.</p>
+            <p class="text-lg text-gray-600 dark:text-gray-300">I leverage Python, Node.js, Vue.js, and AWS to deliver robust solutions, from reliable ETL pipelines to high-performance web applications, ensuring your data works for you and your systems scale smoothly.</p>
             
             <!-- Social media icons and CV download -->
             <div class="flex flex-wrap items-center gap-x-6 gap-y-4">
@@ -46,10 +46,10 @@
         <div v-if="showSimba" class="p-6 mt-12 transition-all duration-500 transform bg-gray-100 rounded-lg shadow-lg dark:bg-gray-800 animate-fade-in">
           <div class="flex flex-col items-center gap-8 md:flex-row">
             <div class="w-full md:w-1/2">
-              <h3 class="mb-4 text-2xl font-bold text-gray-800 dark:text-white">I like your curiousity, just like Simba!</h3>
+              <h3 class="mb-4 text-2xl font-bold text-gray-800 dark:text-white">I like your curiousity, just like Simba! 😸</h3>
               <p class="text-lg text-gray-600 dark:text-gray-300">
-                He's my coding companion who keeps me company during long programming sessions.
-                He's known for his curious nature and occasional keyboard contributions.
+                He's my coding companion who supervises every line of code with silent judgement.
+                Known for his curious nature and occasional keyboard contributions.
               </p>
             </div>
             <div class="flex justify-center w-full md:w-1/2">
