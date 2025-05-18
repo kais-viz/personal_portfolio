@@ -1,11 +1,11 @@
 <template>
   <section id="contact">
-    <div class="px-6 py-16 bg-white dark:bg-gray-900 isolate sm:py-20 mx-auto max-w-7xl lg:px-8">
+    <div class="px-6 py-16 pb-24 mx-auto bg-white sm:pb-32 dark:bg-gray-900 isolate sm:py-20 max-w-7xl lg:px-8">
       <div class="max-w-2xl mx-auto text-center">
         <h2 class="text-4xl font-semibold tracking-tight text-gray-900 dark:text-white text-balance sm:text-5xl">Let's Connect</h2>
       </div>
-      <div v-if="formSubmitted" class="max-w-xl mx-auto mt-16 sm:mt-10 text-center">
-        <h3 class="text-2xl font-medium text-gray-900 dark:text-white mb-4">Thank you!</h3>
+      <div v-if="formSubmitted" class="max-w-xl mx-auto mt-16 text-center sm:mt-10">
+        <h3 class="mb-4 text-2xl font-medium text-gray-900 dark:text-white">Thank you!</h3>
         <p class="text-lg text-gray-600 dark:text-gray-300">I will get back to you as soon as possible.</p>
       </div>
       <form v-else class="max-w-xl mx-auto mt-16 sm:mt-10" @submit.prevent="handleSubmit">
