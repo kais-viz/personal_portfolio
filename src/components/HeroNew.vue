@@ -7,7 +7,7 @@
           <!-- Left side content -->
           <div class="w-full space-y-6 md:w-1/2">          
             <h1 class="text-4xl font-bold text-gray-800 dark:text-white md:text-4xl -ml-0.5">Delivering High-Impact Software Solutions.</h1>
-            <p class="text-2xl text-gray-600 dark:text-gray-300">I'm Kais Kawar, a Full Stack Software Engineer specializing in building robust, data-driven, and scalable cloud-based applications.</p>
+            <p class="text-2xl text-gray-600 dark:text-gray-300">I'm <span @click="incrementClicks" class="transition-colors cursor-pointer ">Kais Kawar</span>, a Full Stack Software Engineer specializing in building robust, data-driven, and scalable cloud-based applications.</p>
             <p class="text-lg text-gray-600 dark:text-gray-300">Leveraging Python, Node.js, Vue.js, and AWS, I deliver innovative solutions from reliable ETL pipelines to high-performance web applications, ensuring your data works for you and your systems handle growth effortlessly.</p>
           </div>
           <!-- Right side image -->
@@ -19,6 +19,25 @@
             />
           </div>
         </div>
+        
+        <div v-if="showSimba" class="p-6 mt-12 transition-all duration-500 transform bg-gray-100 rounded-lg shadow-lg dark:bg-gray-800 animate-fade-in">
+          <div class="flex flex-col items-center gap-8 md:flex-row">
+            <div class="w-full md:w-1/2">
+              <h3 class="mb-4 text-2xl font-bold text-gray-800 dark:text-white">Meet Simba!</h3>
+              <p class="text-lg text-gray-600 dark:text-gray-300">
+                This is my cat Simba. He's my coding companion who keeps me company during long programming sessions.
+                He's known for his curious nature and occasional keyboard contributions.
+              </p>
+            </div>
+            <div class="flex justify-center w-full md:w-1/2">
+              <img
+                src="/simba.jpg"
+                alt="Simba the cat"
+                class="h-auto max-w-full rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
       </div>
       <div class="absolute inset-x-0 bottom-0 h-24 -z-10 bg-gradient-to-t from-white dark:from-gray-900 sm:h-32" />
     </div>
@@ -27,6 +46,31 @@
 </template>
 <script>
 export default {
-  name: 'HeroNew'
+  name: 'HeroNew',
+  data() {
+    return {
+      clickCount: 0,
+      showSimba: false
+    }
+  },
+  methods: {
+    incrementClicks() {
+      this.clickCount++;
+      if (this.clickCount >= 5) {
+        this.showSimba = true;
+      }
+    }
+  }
 }
 </script>
+
+<style scoped>
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+</style>
