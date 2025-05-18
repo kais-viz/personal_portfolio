@@ -23,9 +23,9 @@
         <div v-if="showSimba" class="p-6 mt-12 transition-all duration-500 transform bg-gray-100 rounded-lg shadow-lg dark:bg-gray-800 animate-fade-in">
           <div class="flex flex-col items-center gap-8 md:flex-row">
             <div class="w-full md:w-1/2">
-              <h3 class="mb-4 text-2xl font-bold text-gray-800 dark:text-white">Meet Simba!</h3>
+              <h3 class="mb-4 text-2xl font-bold text-gray-800 dark:text-white">I like your curiousity, just like Simba!</h3>
               <p class="text-lg text-gray-600 dark:text-gray-300">
-                This is my cat Simba. He's my coding companion who keeps me company during long programming sessions.
+                Meet my cat Simba. He's my coding companion who keeps me company during long programming sessions.
                 He's known for his curious nature and occasional keyboard contributions.
               </p>
             </div>
