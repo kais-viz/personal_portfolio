@@ -7,7 +7,8 @@
           <!-- Left side content -->
           <div class="w-full space-y-6 md:w-1/2">
             <p class="text-lg text-gray-600 dark:text-gray-300">Hello, I'm</p>
-            <h1 class="text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">Kais Kawar</h1>
+            
+            <h1 class="text-4xl font-bold text-gray-800 dark:text-white md:text-5xl -ml-0.5">Kais Kawar</h1>
             <p class="text-lg text-gray-600 dark:text-gray-300">A passionate software developer specializing in building modern web applications with a focus on clean code and user experience.</p>
           </div>
           <!-- Right side image -->
