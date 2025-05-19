@@ -1,6 +1,6 @@
 <script setup>
 import Nav from './components/Nav.vue'
-import HeroNew from './components/HeroNew.vue'
+import HeroNew from './components/Hero.vue'
 import Experience from './components/Experience.vue'
 import Skills from './components/Skills.vue'
 import Education from './components/Education.vue'
