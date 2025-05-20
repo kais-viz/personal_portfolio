@@ -11,7 +11,7 @@
             <p class="text-lg text-gray-600 dark:text-gray-300">I leverage Python, Node.js, Vue.js, and AWS to deliver robust solutions, from reliable ETL pipelines to high-performance web applications, ensuring your data works for you and your systems scale smoothly.</p>
             
             <!-- Social media icons and CV download -->
-            <div class="flex flex-wrap items-center gap-x-6 gap-y-4">
+            <div class="flex flex-wrap items-center gap-x-3 sm:gap-x-6 gap-y-4">
               <a href="https://linkedin.com/in/kaiskawar" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
                 <span class="sr-only">LinkedIn</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -31,6 +31,7 @@
                 </svg>
               </a>
               <a href="/KaisKawar_CV.pdf" download class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Download CV</a>
+              <a href="#contact" class="rounded-md bg-emerald-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600">Let's Talk</a>
             </div>
           </div>
           <!-- Right side image -->
